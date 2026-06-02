@@ -668,6 +668,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .photo-cell { flex: none; width: 100%; }
   .photo-row.row-1 .photo-cell { height: 210px; }
   .photo-row.row-2 .photo-cell, .photo-row.row-3 .photo-cell { height: 210px; }
+  .mobile-hide { display: none; }
 
   .about-intro { font-size: 16px; }
   .about-body { font-size: 14px; }
