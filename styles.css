@@ -117,7 +117,7 @@ ul { list-style: none; }
 .hero-logo { height: 105px; width: auto; }
 
 /* ── PROJECTS SECTION ────────────────────────── */
-.projects-section { max-width: 1440px; margin: 120px auto 0; padding: 0 48px; }
+.projects-section { max-width: 1440px; margin: 64px auto 0; padding: 0 48px; }
 .projects-section .section-header { margin-bottom: 48px; }
 
 /* ── PHOTO GRID ──────────────────────────────── */
@@ -229,7 +229,7 @@ ul { list-style: none; }
 .underline-bar-sm { width: 48px; height: 3px; background: white; }
 
 /* ── UNIVERSITY GRID ─────────────────────────── */
-.uni-section { max-width: 1440px; margin: 120px auto 0; padding: 0 48px; }
+.uni-section { max-width: 1440px; margin: 64px auto 0; padding: 0 48px; }
 .uni-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 .uni-row-bottom { display: flex; gap: 24px; justify-content: center; margin-bottom: 40px; }
 .uni-row-bottom .uni-card { width: calc(33.33% - 16px); }
@@ -250,13 +250,13 @@ ul { list-style: none; }
 .see-more-wrap { text-align: center; margin-top: 32px; }
 
 /* ── PEOPLE (LANDING) ────────────────────────── */
-.research-cards-section { max-width: 1440px; margin: 120px auto 0; padding: 0 48px; }
+.research-cards-section { max-width: 1440px; margin: 64px auto 0; padding: 0 48px; }
 .research-cards-section .section-header { margin-bottom: 48px; }
 .research-cards-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 .research-card { height: auto; }
 .research-card-label { font-weight: 600; }
 
-.people-section { max-width: 1440px; margin: 120px auto 0; padding: 0 48px; }
+.people-section { max-width: 1440px; margin: 64px auto 0; padding: 0 48px; }
 .people-grid { display: flex; gap: 24px; justify-content: center; }
 .person-card {
   position: relative; width: 440px; height: 480px;
@@ -501,14 +501,14 @@ ul { list-style: none; }
 /* ── HOME PAGE SPACING ───────────────────────── */
 .page-home .projects-section,
 .page-home .research-cards-section,
-.page-home .uni-section { margin-top: 72px; }
+.page-home .uni-section { margin-top: 48px; }
 .page-home .section-desc { margin-bottom: 40px; }
 
 /* ── HOME PAGE PEOPLE BAND ───────────────────── */
 .page-home .people-section {
   max-width: none;
-  margin-top: 72px;
-  padding: 72px 0;
+  margin-top: 48px;
+  padding: 48px 0;
   background: black;
 }
 .page-home .people-section .section-header h2 { color: white; }
@@ -532,7 +532,7 @@ ul { list-style: none; }
 .page-research-staff footer { margin-top: 0; }
 .page-partners-advisors footer { margin-top: 0; }
 
-footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-top: 72px; }
+footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-top: 48px; }
 .footer-inner { max-width: 1440px; margin: 0 auto; padding: 0 48px; display: flex; flex-direction: column; gap: 40px; }
 .footer-top { display: flex; align-items: flex-start; justify-content: space-between; }
 .footer-logo { height: 56px; width: auto; flex-shrink: 0; filter: brightness(0) invert(1); }
