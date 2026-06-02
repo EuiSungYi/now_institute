@@ -612,7 +612,8 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .page-research-staff .researchers-grid { grid-template-columns: 1fr; }
 
   .people-inner { padding: 0 24px; }
-  .page-home .people-content-wrap { width: 100%; }
+  .page-home .people-content-wrap,
+  .page-people .people-content-wrap { width: 100%; }
   .page-home .people-section { padding: 60px 0; }
   .people-grid { flex-direction: column; align-items: center; }
   .person-card { width: 100%; height: 160px; }
