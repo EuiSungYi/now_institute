@@ -696,7 +696,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .person-bio-name { font-size: 22px; }
 
   .footer-inner { padding: 0 24px; }
-  .footer-links { flex-direction: column; gap: 24px; }
+  .footer-links { flex-direction: column; gap: 16px; }
 
   .awards-grid, .assoc-grid { grid-template-columns: 1fr; }
   .edu-list, .teaching-list, .pub-list { grid-template-columns: 1fr; }
