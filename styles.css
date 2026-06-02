@@ -615,7 +615,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .page-home .people-content-wrap { width: 100%; }
   .page-home .people-section { padding: 60px 0; }
   .people-grid { flex-direction: column; align-items: center; }
-  .person-card { width: 100%; max-width: 280px; height: 200px; }
+  .person-card { width: 100%; height: 200px; }
 
   .person-hero { flex-direction: column; padding: 40px 24px; gap: 32px; }
   .person-hero > img { width: 100%; max-width: 495px; height: auto; }
