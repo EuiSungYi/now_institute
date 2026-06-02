@@ -260,7 +260,7 @@ ul { list-style: none; }
 .people-section { max-width: 1440px; margin: 64px auto 0; padding: 0 48px; }
 .people-grid { display: flex; gap: 24px; justify-content: center; }
 .person-card {
-  position: relative; width: 420px; height: 460px;
+  position: relative; width: 440px; height: 480px;
   overflow: hidden; flex-shrink: 0; display: block;
 }
 .person-card img {
