@@ -616,7 +616,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .page-home .people-content-wrap { width: 100%; }
   .page-home .people-section { padding: 60px 0; }
   .people-grid { flex-direction: column; align-items: center; }
-  .person-card { width: 100%; max-width: 400px; height: 320px; }
+  .person-card { width: 100%; max-width: 320px; height: 220px; }
 
   .person-hero { flex-direction: column; padding: 40px 24px; gap: 32px; }
   .person-hero > img { width: 100%; max-width: 495px; height: auto; }
@@ -680,7 +680,6 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .research-cards-grid .photo-img-wrap { height: 200px; }
   .mobile-hide { display: none; }
   .research-cards-grid { grid-template-columns: 1fr; }
-  .uni-grid { grid-template-columns: 1fr; }
   .pub-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
 
   .about-intro { font-size: 16px; }
@@ -694,11 +693,12 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .research-cards-section { padding: 0 16px; }
   .uni-section { padding: 0 16px; }
   .uni-grid { grid-template-columns: repeat(2, 1fr); }
+  .page-home .uni-grid { grid-template-columns: 1fr; }
   .projects-section { padding: 0 16px; }
 
   .people-inner { padding: 0 16px; }
   .page-home .people-section { padding: 40px 0; }
-  .person-card { height: 280px; }
+  .person-card { height: 200px; }
   .person-info { left: 16px; right: 16px; bottom: 16px; }
   .person-text { font-size: 15px; gap: 4px; }
   .person-text p:first-child { font-size: 17px; }
