@@ -608,8 +608,8 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .uni-section { padding: 0 24px; }
   .uni-grid { grid-template-columns: repeat(2, 1fr); }
 
-  .page-research-staff .staff-grid { grid-template-columns: 1fr; }
-  .page-research-staff .researchers-grid { grid-template-columns: 1fr; }
+  .page-research-staff .staff-grid { grid-template-columns: repeat(2, 1fr); }
+  .page-research-staff .researchers-grid { grid-template-columns: repeat(2, 1fr); }
 
   .people-inner { padding: 0 24px; }
   .page-home .people-content-wrap,
@@ -658,7 +658,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .pa-advisors-grid { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 600px) {
-  .pa-advisors-grid { grid-template-columns: 1fr; }
+  .pa-advisors-grid { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 480px) {
   .pa-board-grid { grid-template-columns: 1fr; }
@@ -689,7 +689,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .hero-about-body { display: none; }
   .hero-about-intro { font-size: 15px; }
 
-  .page-research-staff .staff-grid { grid-template-columns: repeat(1, 1fr); }
+  .page-research-staff .staff-grid { grid-template-columns: repeat(2, 1fr); }
 
   .research-cards-section { padding: 0 16px; }
   .uni-section { padding: 0 16px; }
@@ -823,14 +823,14 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
 /* ── PEOPLE PAGES RESPONSIVE (must come after base CSS) ── */
 @media (max-width: 900px) {
   .person-hero { flex-direction: column; padding: 40px 32px; gap: 32px; align-items: flex-start; }
-  .person-hero > img { width: 100%; max-width: 100%; height: 400px; flex-shrink: 1; object-fit: cover; object-position: top center; }
+  .person-hero > img { width: 100%; max-width: 100%; height: 280px; flex-shrink: 1; object-fit: cover; object-position: top center; }
   .person-hero-info { width: 100%; }
   .person-content { padding: 40px 32px; }
 }
 
 @media (max-width: 600px) {
   .person-hero { padding: 24px 16px; gap: 20px; }
-  .person-hero > img { width: 100%; height: 280px; object-fit: cover; object-position: top center; }
+  .person-hero > img { width: 100%; height: 240px; object-fit: cover; object-position: top center; }
   .person-roles { gap: 12px; }
   .person-content { padding: 32px 16px; }
   .awards-grid, .assoc-grid { grid-template-columns: 1fr; }
