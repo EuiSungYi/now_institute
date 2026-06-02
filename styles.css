@@ -184,9 +184,8 @@ ul { list-style: none; }
 }
 .hero-about.visible { transform: translateY(0); }
 .hero-about-inner {
-  max-width: 1100px; margin: 0 auto;
-  display: flex; flex-direction: column; gap: 40px; align-items: center;
-  color: white; text-align: center;
+  display: flex; flex-direction: column; gap: 40px; align-items: flex-start;
+  color: white; text-align: left;
 }
 .hero-about-text { display: flex; flex-direction: column; gap: 20px; }
 .hero-about-intro { font-size: 22px; line-height: 1.6; font-weight: 700; margin: 0; }
@@ -492,6 +491,7 @@ ul { list-style: none; }
 .page-home .people-grid { justify-content: flex-start; }
 .page-home .people-section .section-header { text-align: left; }
 .page-home .people-section .underline-bar { margin: 0; }
+.page-home .hero-about-inner { text-align: left; align-items: flex-start; }
 
 .page-home .people-desc { max-width: 520px; }
 
