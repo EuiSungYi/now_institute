@@ -498,14 +498,14 @@ ul { list-style: none; }
 /* ── HOME PAGE SPACING ───────────────────────── */
 .page-home .projects-section,
 .page-home .research-cards-section,
-.page-home .uni-section { margin-top: 96px; }
+.page-home .uni-section { margin-top: 72px; }
 .page-home .section-desc { margin-bottom: 40px; }
 
 /* ── HOME PAGE PEOPLE BAND ───────────────────── */
 .page-home .people-section {
   max-width: none;
-  margin-top: 96px;
-  padding: 96px 0;
+  margin-top: 72px;
+  padding: 72px 0;
   background: black;
 }
 .page-home .people-section .section-header h2 { color: white; }
@@ -529,7 +529,7 @@ ul { list-style: none; }
 .page-research-staff footer { margin-top: 0; }
 .page-partners-advisors footer { margin-top: 0; }
 
-footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-top: 120px; }
+footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-top: 72px; }
 .footer-inner { max-width: 1440px; margin: 0 auto; padding: 0 48px; display: flex; flex-direction: column; gap: 40px; }
 .footer-top { display: flex; align-items: flex-start; justify-content: space-between; }
 .footer-logo { height: 56px; width: auto; flex-shrink: 0; filter: brightness(0) invert(1); }
