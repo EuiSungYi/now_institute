@@ -598,6 +598,8 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .photo-grid:not(.pub-grid) .photo-img-wrap,
   .research-cards-grid .photo-img-wrap { height: 180px; }
 
+  .pub-grid { grid-template-columns: repeat(3, 1fr); }
+
   .research-cards-section { padding: 0 24px; }
   .research-cards-grid { grid-template-columns: repeat(2, 1fr); }
   .research-card { height: auto; }
@@ -679,6 +681,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .mobile-hide { display: none; }
   .research-cards-grid { grid-template-columns: 1fr; }
   .uni-grid { grid-template-columns: 1fr; }
+  .pub-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
 
   .about-intro { font-size: 16px; }
   .about-body { font-size: 14px; }
@@ -691,6 +694,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .research-cards-section { padding: 0 16px; }
   .uni-section { padding: 0 16px; }
   .uni-grid { grid-template-columns: repeat(2, 1fr); }
+  .projects-section { padding: 0 16px; }
 
   .people-inner { padding: 0 16px; }
   .page-home .people-section { padding: 40px 0; }
