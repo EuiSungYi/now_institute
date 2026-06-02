@@ -826,8 +826,8 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
 .staff-info { display: flex; flex-direction: column; gap: 4px; }
 .staff-name { font-size: 15px; font-weight: 600; }
 .staff-role { font-size: 13px; color: #525252; }
-.researchers-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; max-width: 900px; margin: 0 auto; padding: 0 24px; }
-.researcher-name { font-size: 13px; font-weight: 400; text-align: center; padding: 6px 8px; border-bottom: 1px solid #e5e5e5; }
+.researchers-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; max-width: 720px; margin: 0 auto; padding: 0 24px; }
+.researcher-name { font-size: 15px; font-weight: 500; text-align: center; padding: 8px 10px; border-bottom: 1px solid #e5e5e5; }
 
 /* ── PROJECT PAGE (extra helpers) ───────────── */
 .project-subtitle-questions { display: flex; flex-direction: column; gap: 8px; }
