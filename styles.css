@@ -233,10 +233,10 @@ ul { list-style: none; }
 .uni-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 .uni-row-bottom { display: flex; gap: 24px; justify-content: center; margin-bottom: 40px; }
 .uni-row-bottom .uni-card { width: calc(33.33% - 16px); }
-.uni-row-last { grid-column: 1 / -1; display: flex; gap: 24px; }
-.uni-row-last .uni-card { flex: 1; }
-.uni-card { position: relative; height: 260px; overflow: hidden; background: #d9d9d9; }
-.uni-card { position: relative; display: flex; flex-direction: column; height: 260px; overflow: hidden; background: white; }
+.uni-row-last { grid-column: 1 / -1; display: flex; gap: 24px; justify-content: center; }
+.uni-row-last .uni-card { flex: 0 0 calc(33.33% - 16px); }
+.uni-card { position: relative; height: 200px; overflow: hidden; background: #d9d9d9; }
+.uni-card { position: relative; display: flex; flex-direction: column; height: 200px; overflow: hidden; background: white; }
 .uni-card img { flex: 1; width: 100%; min-height: 0; object-fit: cover; }
 .uni-overlay { display: none; }
 .uni-label {
