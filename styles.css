@@ -90,11 +90,11 @@ ul { list-style: none; }
 .mega-nav.open { display: flex; flex-direction: column; }
 .mega-nav-header {
   display: flex; justify-content: space-between; align-items: center;
-  margin-bottom: 48px;
+  margin-bottom: 48px; flex-shrink: 0;
 }
 .mega-nav-header .logo { height: 52px; width: auto; }
 .close-btn { background: none; border: none; cursor: pointer; font-size: 24px; line-height: 1; }
-.mega-nav-links { display: flex; gap: 80px; flex-wrap: wrap; }
+.mega-nav-links { display: flex; gap: 80px; flex-wrap: wrap; flex-shrink: 0; }
 .nav-col { display: flex; flex-direction: column; }
 .nav-col-title { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 24px; cursor: pointer; color: #888; }
 .nav-col-title:hover { text-decoration: underline; }
