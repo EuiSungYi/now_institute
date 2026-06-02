@@ -617,7 +617,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .page-home .people-section { padding: 60px 0; }
   .people-grid { flex-direction: column; align-items: center; }
   .person-card { width: 100%; height: 160px; }
-  .page-people .person-card { height: 400px; }
+  .page-people .person-card { height: 420px; }
   .page-home .person-card { height: 420px; }
 
   .person-hero { flex-direction: column; padding: 40px 24px; gap: 32px; }
@@ -702,7 +702,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .people-inner { padding: 0 16px; }
   .page-home .people-section { padding: 40px 0; }
   .person-card { height: 140px; }
-  .page-people .person-card { height: 400px; }
+  .page-people .person-card { height: 380px; }
   .page-home .person-card { height: 380px; }
   .person-info { left: 16px; right: 16px; bottom: 16px; }
   .person-text { font-size: 15px; gap: 4px; }
@@ -739,7 +739,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .project-img-pair img { width: 100% !important; }
   .inst-grid { grid-template-columns: 1fr !important; }
   .person-card { height: 140px; }
-  .page-people .person-card { height: 400px; }
+  .page-people .person-card { height: 380px; }
   .page-home .person-card { height: 380px; }
   .contact-section { padding: 40px 16px; }
 }
