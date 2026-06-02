@@ -235,9 +235,8 @@ ul { list-style: none; }
 .uni-row-bottom .uni-card { width: calc(33.33% - 16px); }
 .uni-row-last { grid-column: 1 / -1; display: flex; gap: 24px; justify-content: center; }
 .uni-row-last .uni-card { flex: 0 0 calc(33.33% - 16px); }
-.uni-card { position: relative; height: 200px; overflow: hidden; background: #d9d9d9; }
-.uni-card { position: relative; display: flex; flex-direction: column; height: 200px; overflow: hidden; background: white; }
-.uni-card img { flex: 1; width: 100%; min-height: 0; object-fit: cover; }
+.uni-card { position: relative; display: flex; flex-direction: column; height: auto; overflow: hidden; background: white; }
+.uni-card img { width: 100%; height: 160px; flex: none; object-fit: cover; }
 .uni-overlay { display: none; }
 .uni-label {
   position: static; inset: auto;
