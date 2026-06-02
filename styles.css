@@ -281,8 +281,8 @@ ul { list-style: none; }
 /* ── PERSON BIO PAGE ─────────────────────────── */
 .person-bg-top { background: black; }
 .person-hero {
-  width: 100%; padding: 56px 48px;
-  display: flex; gap: 94px; align-items: center; justify-content: center; background: black;
+  width: 100%; padding: 48px;
+  display: flex; gap: 94px; align-items: flex-start; justify-content: center; background: black;
 }
 .person-photo { width: 495px; height: 540px; flex-shrink: 0; overflow: hidden; position: relative; }
 .person-photo img { width: 100%; height: 100%; object-fit: cover; object-position: top center; }
@@ -749,8 +749,8 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
 
 /* ── PERSON HERO (new layout) ────────────────── */
 .person-hero {
-  width: 100%; padding: 56px 48px;
-  display: flex; gap: 94px; align-items: center; justify-content: center; background: black;
+  width: 100%; padding: 48px;
+  display: flex; gap: 94px; align-items: flex-start; justify-content: center; background: black;
 }
 .person-hero > img { flex: 0 1 495px; min-width: 0; height: 480px; object-fit: cover; object-position: top center; }
 .person-hero-info { display: flex; flex-direction: column; gap: 24px; flex: 0 1 495px; min-width: 0; }
