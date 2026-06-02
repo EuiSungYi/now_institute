@@ -692,7 +692,8 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .research-cards-section { padding: 0 16px; }
   .uni-section { padding: 0 16px; }
   .uni-grid { grid-template-columns: repeat(2, 1fr); }
-  .page-home .uni-grid { grid-template-columns: 1fr; }
+  .page-home .uni-grid,
+  .page-about-overview .uni-grid { grid-template-columns: 1fr; }
   .projects-section { padding: 0 16px; }
 
   .people-inner { padding: 0 16px; }
