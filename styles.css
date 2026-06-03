@@ -464,6 +464,7 @@ ul { list-style: none; }
 .page-research-staff .staff-card { width: auto; }
 .page-research-staff .staff-section:last-of-type { padding-bottom: 120px; }
 .page-research-staff footer { margin-top: 0; }
+.page-partners-advisors { background: #fafafa; }
 .page-partners-advisors footer { margin-top: 0; }
 
 footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-top: 48px; }
