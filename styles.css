@@ -750,7 +750,10 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
 .page-people .staff-block + .staff-block { border-top: 1px solid #e5e5e5; }
 
 /* ── PARTNERS PAGE: section dividers ────────── */
-.page-partners-advisors .staff-section + .staff-section { border-top: 1px solid #e5e5e5; }
+.page-partners-advisors .staff-section + .staff-section { border-top: none; padding-top: 0; }
+.page-partners-advisors .staff-section + .staff-section .staff-inner::before {
+  content: ''; display: block; height: 1px; background: #e5e5e5; margin-bottom: 64px;
+}
 
 /* ── STAFF PAGE ──────────────────────────────── */
 .staff-page { display: flex; flex-direction: column; gap: 0; }
