@@ -172,7 +172,7 @@ ul { list-style: none; }
 .photo-cell-linked:hover .photo-overlay { opacity: 1; }
 
 /* ── ABOUT ───────────────────────────────────── */
-.about-section { max-width: 1440px; margin: 0 auto; padding: 48px 48px 0; }
+.about-section { max-width: 1440px; margin: 0 auto; padding: 64px 48px 0; }
 .about-intro { font-size: 18px; line-height: 1.35; margin-bottom: 24px; font-weight: 400; }
 .about-intro strong { font-weight: 700; }
 .about-body { font-size: 17px; line-height: 1.55; font-weight: 400; }
@@ -305,7 +305,7 @@ ul { list-style: none; }
 
 /* ── PROJECT PAGE ────────────────────────────── */
 .project-page { max-width: 1440px; margin: 0 auto; }
-.project-header { max-width: 875px; margin: 0 auto; padding: 48px 48px 40px; display: flex; flex-direction: column; gap: 40px; }
+.project-header { max-width: 875px; margin: 0 auto; padding: 64px 48px 40px; display: flex; flex-direction: column; gap: 40px; }
 .project-header-inner { display: flex; flex-direction: column; gap: 24px; }
 .project-accent { display: none; }
 .project-title { font-size: 36px; font-weight: 700; line-height: 1.1; }
@@ -330,7 +330,7 @@ ul { list-style: none; }
 .project-row img { display: block; object-fit: cover; height: auto; max-width: 100%; }
 
 /* ── RESEARCH PAGE ───────────────────────────── */
-.research-page { max-width: 1440px; margin: 0 auto; padding: 48px 48px 80px; display: flex; flex-direction: column; gap: 24px; }
+.research-page { max-width: 1440px; margin: 0 auto; padding: 64px 48px 80px; display: flex; flex-direction: column; gap: 24px; }
 .research-title { font-size: 36px; font-weight: 700; line-height: 1.1; }
 .research-body { display: flex; flex-direction: column; gap: 40px; }
 .research-image-block { display: flex; flex-direction: column; gap: 24px; }
@@ -347,7 +347,7 @@ ul { list-style: none; }
 .research-split-text ul { margin-left: 24px; list-style: disc; }
 .research-split-text li { margin-bottom: 12px; line-height: 1.6; }
 /* Publication detail pages */
-.pub-page { max-width: 1440px; margin: 0 auto; padding: 60px 48px 120px; display: flex; flex-direction: column; gap: 32px; }
+.pub-page { max-width: 1440px; margin: 0 auto; padding: 64px 48px 120px; display: flex; flex-direction: column; gap: 32px; }
 .pub-page .pub-title { font-size: 36px; font-weight: 700; line-height: 1.1; margin: 0; }
 .pub-img-full { width: 100%; display: block; }
 .pub-img-full.cropped { max-height: 580px; object-fit: cover; object-position: center; }
@@ -407,7 +407,7 @@ ul { list-style: none; }
 .page-accent-bar { display: none; }
 .page-title { font-size: 36px; font-weight: 700; line-height: 1.1; margin: 0; }
 
-.contact-section { max-width: 1440px; width: 100%; box-sizing: border-box; margin: 0 auto; padding: 48px 48px; flex: 1; }
+.contact-section { max-width: 1440px; width: 100%; box-sizing: border-box; margin: 0 auto; padding: 64px 48px; flex: 1; }
 .contact-section h2 { font-size: 34px; font-weight: 700; margin: 0; }
 .contact-section p { font-size: 17px; font-weight: 400; line-height: 1.7; }
 .contact-section a { text-decoration: underline; color: black; }
@@ -452,7 +452,7 @@ ul { list-style: none; }
 .people-inner { max-width: 1440px; margin: 0 auto; padding: 0 48px; }
 
 /* ── RESEARCH NETWORK PAGE ────────────────────── */
-.page-research-network .uni-section { max-width: 1440px; margin: 0 auto; padding: 48px 48px; }
+.page-research-network .uni-section { max-width: 1440px; margin: 0 auto; padding: 64px 48px; }
 .page-research-network .section-header { text-align: left; margin-bottom: 12px; }
 .page-research-network .underline-bar { margin: 0; }
 .page-research-network .section-desc { text-align: left; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 40px; }
@@ -675,10 +675,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
 /* Project page section dividers */
 .project-body > .project-section + .project-section { border-top: 1px solid #e5e5e5; padding-top: 32px; }
 
-/* Page-specific top margin for index/overview pages */
-.page-projects .projects-section,
-.page-publications .projects-section { margin-top: 48px; }
-.page-research .research-cards-section { margin-top: 48px; }
+/* Page-specific top margin for index/overview pages — keep consistent 64px base */
 
 /* Small mobile (≤ 480px) */
 @media (max-width: 480px) {
@@ -692,7 +689,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
 }
 
 /* ── CONTACT PAGE ────────────────────────────── */
-.contact-page { max-width: 1440px; margin: 0 auto; padding: 48px 48px; }
+.contact-page { max-width: 1440px; margin: 0 auto; padding: 64px 48px; }
 .contact-page-inner { display: flex; flex-direction: column; gap: 48px; }
 .contact-details { display: flex; flex-direction: column; gap: 12px; }
 .contact-details p { font-size: 16px; line-height: 1.6; }
