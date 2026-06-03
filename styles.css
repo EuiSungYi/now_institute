@@ -1,6 +1,6 @@
 /* ── RESET ───────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: 'Jost', sans-serif; font-size: 16px; background: white; color: black; overflow-x: hidden; }
+body { font-family: 'Jost', sans-serif; font-size: 16px; background: white; color: black; overflow-x: hidden; min-height: 100vh; display: flex; flex-direction: column; }
 a { text-decoration: none; color: inherit; }
 img { display: block; }
 ul { list-style: none; }
@@ -463,12 +463,10 @@ ul { list-style: none; }
 .page-research-staff .staff-card { width: auto; }
 .page-research-staff .staff-section:last-of-type { padding-bottom: 120px; }
 .page-research-staff footer { margin-top: 0; }
-.page-about-overview footer { margin-top: 0 !important; }
-.page-clientele footer { margin-top: 0 !important; }
 .page-partners-advisors { background: #fafafa; }
 .page-partners-advisors footer { margin-top: 0; }
 
-footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-top: 48px; }
+footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-top: auto; }
 .footer-inner { max-width: 1440px; margin: 0 auto; padding: 0 48px; display: flex; flex-direction: column; gap: 40px; }
 .footer-top { display: flex; align-items: flex-start; justify-content: space-between; }
 .footer-logo { height: 56px; width: auto; flex-shrink: 0; filter: brightness(0) invert(1); }
