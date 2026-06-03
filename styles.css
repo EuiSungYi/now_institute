@@ -116,7 +116,7 @@ ul { list-style: none; }
 .hero-logo { height: 105px; width: auto; }
 
 /* ── PROJECTS SECTION ────────────────────────── */
-.projects-section { max-width: 1440px; margin: 64px auto 0; padding: 0 48px 80px; }
+.projects-section { max-width: 1440px; margin: 64px auto 0; padding: 0 48px 64px; }
 .projects-section .section-header { margin-bottom: 48px; }
 
 /* ── PHOTO GRID ──────────────────────────────── */
@@ -250,7 +250,7 @@ ul { list-style: none; }
 .see-more-wrap { text-align: center; margin-top: 32px; }
 
 /* ── PEOPLE (LANDING) ────────────────────────── */
-.research-cards-section { max-width: 1440px; margin: 64px auto 0; padding: 0 48px 80px; }
+.research-cards-section { max-width: 1440px; margin: 64px auto 0; padding: 0 48px 64px; }
 .research-cards-section .section-header { margin-bottom: 48px; }
 .research-cards-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 .research-card { height: auto; }
@@ -330,7 +330,7 @@ ul { list-style: none; }
 .project-row img { display: block; object-fit: cover; height: auto; max-width: 100%; }
 
 /* ── RESEARCH PAGE ───────────────────────────── */
-.research-page { max-width: 1440px; margin: 0 auto; padding: 64px 48px 80px; display: flex; flex-direction: column; gap: 24px; }
+.research-page { max-width: 1440px; margin: 0 auto; padding: 64px 48px 64px; display: flex; flex-direction: column; gap: 24px; }
 .research-title { font-size: 36px; font-weight: 700; line-height: 1.1; }
 .research-body { display: flex; flex-direction: column; gap: 40px; }
 .research-image-block { display: flex; flex-direction: column; gap: 24px; }
@@ -347,7 +347,7 @@ ul { list-style: none; }
 .research-split-text ul { margin-left: 24px; list-style: disc; }
 .research-split-text li { margin-bottom: 12px; line-height: 1.6; }
 /* Publication detail pages */
-.pub-page { max-width: 1440px; margin: 0 auto; padding: 64px 48px 120px; display: flex; flex-direction: column; gap: 32px; }
+.pub-page { max-width: 1440px; margin: 0 auto; padding: 64px 48px 64px; display: flex; flex-direction: column; gap: 32px; }
 .pub-page .pub-title { font-size: 36px; font-weight: 700; line-height: 1.1; margin: 0; }
 .pub-img-full { width: 100%; display: block; }
 .pub-img-full.cropped { max-height: 580px; object-fit: cover; object-position: center; }
@@ -400,7 +400,7 @@ ul { list-style: none; }
 /* ── PAGE HEADER (inner pages) ───────────────── */
 .page-hero { background: #fafafa; padding: 64px 48px; text-align: center; }
 .page-hero h1 { font-size: 36px; font-weight: 700; margin-bottom: 16px; }
-.page-content { max-width: 1440px; margin: 0 auto; padding: 64px 48px 80px; }
+.page-content { max-width: 1440px; margin: 0 auto; padding: 64px 48px 64px; }
 
 /* ── CONTACT ─────────────────────────────────── */
 .page-heading { display: flex; flex-direction: column; gap: 16px; margin-bottom: 24px; }
@@ -461,14 +461,14 @@ ul { list-style: none; }
 .page-research-staff .staff-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 0; max-width: none; padding: 0; }
 .page-research-staff .researchers-grid { grid-template-columns: repeat(3, 1fr); }
 .page-research-staff .staff-card { width: auto; }
-.page-research-staff .staff-section:last-of-type { padding-bottom: 120px; }
+.page-research-staff .staff-section:last-of-type { padding-bottom: 64px; }
 .page-research-staff footer { margin-top: 0; }
 .page-clientele, .page-about-overview, .page-research, .page-about { display: flex; flex-direction: column; min-height: 100vh; }
 .page-clientele footer, .page-about-overview footer, .page-research footer, .page-about footer { margin-top: auto; }
 .page-partners-advisors { background: #fafafa; }
 .page-partners-advisors footer { margin-top: 0; }
 
-footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-top: 48px; }
+footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-top: 0; }
 .footer-inner { max-width: 1440px; margin: 0 auto; padding: 0 48px; display: flex; flex-direction: column; gap: 40px; }
 .footer-top { display: flex; align-items: flex-start; justify-content: space-between; }
 .footer-logo { height: 56px; width: auto; flex-shrink: 0; filter: brightness(0) invert(1); }
@@ -673,10 +673,10 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
 
 
 /* Project page section dividers */
-.project-body > .project-section + .project-section { border-top: 1px solid #e5e5e5; padding-top: 32px; }
+.project-body > .project-section + .project-section { border-top: 1px solid #e5e5e5; padding-top: 64px; }
 
 /* Page-specific top margin for index/overview pages — keep consistent 64px base */
-.page-research .research-cards-section { padding-bottom: 80px; width: 100%; }
+.page-research .research-cards-section { width: 100%; }
 
 /* Small mobile (≤ 480px) */
 @media (max-width: 480px) {
