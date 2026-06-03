@@ -463,8 +463,8 @@ ul { list-style: none; }
 .page-research-staff .staff-card { width: auto; }
 .page-research-staff .staff-section:last-of-type { padding-bottom: 120px; }
 .page-research-staff footer { margin-top: 0; }
-.page-clientele, .page-about-overview, .page-research { display: flex; flex-direction: column; min-height: 100vh; }
-.page-clientele footer, .page-about-overview footer, .page-research footer { margin-top: auto; }
+.page-clientele, .page-about-overview, .page-research, .page-about { display: flex; flex-direction: column; min-height: 100vh; }
+.page-clientele footer, .page-about-overview footer, .page-research footer, .page-about footer { margin-top: auto; }
 .page-partners-advisors { background: #fafafa; }
 .page-partners-advisors footer { margin-top: 0; }
 
