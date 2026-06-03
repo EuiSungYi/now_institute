@@ -256,7 +256,7 @@ ul { list-style: none; }
 .research-card { height: auto; }
 .research-card-label { font-weight: 600; }
 
-.people-section { max-width: 1440px; margin: 64px auto 0; padding: 0 48px; }
+.people-section { margin-top: 64px; }
 .people-grid { display: flex; gap: 24px; justify-content: center; }
 .person-card {
   position: relative; width: 440px; height: 480px;
