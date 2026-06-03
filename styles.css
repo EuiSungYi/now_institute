@@ -433,8 +433,8 @@ ul { list-style: none; }
 
 /* ── HOME PAGE SPACING ───────────────────────── */
 .page-home .projects-section,
-.page-home .research-cards-section,
-.page-home .uni-section { margin-top: 48px; padding-bottom: 0; }
+.page-home .research-cards-section { margin-top: 48px; padding-bottom: 0; }
+.page-home .uni-section { margin-top: 48px; padding-bottom: 64px; }
 .page-home .section-desc { margin-bottom: 40px; }
 
 /* ── HOME PAGE PEOPLE BAND ───────────────────── */
