@@ -465,7 +465,7 @@ ul { list-style: none; }
 .page-research-staff footer { margin-top: 0; }
 .page-clientele { display: flex; flex-direction: column; min-height: 100vh; }
 .page-clientele footer { margin-top: auto; }
-.page-about-overview footer { margin-top: 0; }
+.page-about-overview footer, .page-research footer { margin-top: 0; }
 .page-partners-advisors { background: #fafafa; }
 .page-partners-advisors footer { margin-top: 0; }
 
