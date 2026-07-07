@@ -42,7 +42,7 @@ ul { list-style: none; }
   display: none; list-style: none;
   position: absolute; top: calc(100% + 16px); left: 0;
   background: white; border: 1px solid #e5e5e5;
-  min-width: 200px; max-width: 230px; padding: 4px 0;
+  min-width: 200px; max-width: 270px; padding: 4px 0;
   box-shadow: 0 4px 20px rgba(0,0,0,0.08); z-index: 300;
   max-height: calc(100vh - 80px); overflow-y: auto;
 }
