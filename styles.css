@@ -180,7 +180,7 @@ ul { list-style: none; }
 
 /* ── HERO ABOUT DARK BAND ────────────────────── */
 .hero-about {
-  padding: 56px 80px; position: relative; flex-shrink: 0;
+  padding: 32px 80px; position: relative; flex-shrink: 0;
   align-self: center; width: fit-content; max-width: 900px;
   background: rgba(0,0,0,0.85);
   transform: translateY(100%);
@@ -188,12 +188,12 @@ ul { list-style: none; }
 }
 .hero-about.visible { transform: translateY(0); }
 .hero-about-inner {
-  display: flex; flex-direction: column; gap: 40px; align-items: flex-start;
+  display: flex; flex-direction: column; gap: 24px; align-items: flex-start;
   color: white; text-align: left;
 }
-.hero-about-text { display: flex; flex-direction: column; gap: 20px; }
-.hero-about-intro { font-size: 22px; line-height: 1.6; font-weight: 700; margin: 0; }
-.hero-about-body { font-size: 18px; line-height: 1.6; font-weight: 400; margin: 0; }
+.hero-about-text { display: flex; flex-direction: column; gap: 12px; }
+.hero-about-intro { font-size: 20px; line-height: 1.5; font-weight: 700; margin: 0; }
+.hero-about-body { font-size: 16px; line-height: 1.5; font-weight: 400; margin: 0; }
 .hero-btn { font-size: 15px; padding: 7px 28px; }
 
 /* ── BUTTON ──────────────────────────────────── */
