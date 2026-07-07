@@ -180,7 +180,7 @@ ul { list-style: none; }
 
 /* ── HERO ABOUT DARK BAND ────────────────────── */
 .hero-about {
-  padding: clamp(32px, 6vh, 72px) 280px; position: relative; flex-shrink: 0;
+  padding: clamp(32px, 6vh, 72px) clamp(60px, 14vw, 280px); position: relative; flex-shrink: 0;
   align-self: center; width: fit-content;
   background: rgba(0,0,0,0.85);
   transform: translateY(100%);
@@ -486,6 +486,32 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
 .project-img-pair { display: flex; gap: 20px; flex-shrink: 0; }
 
 /* ── RESPONSIVE ──────────────────────────────── */
+
+/* Laptop (≤ 1280px) */
+@media (max-width: 1280px) {
+  .site-header { padding: 14px 32px; }
+  .header-logo { height: 36px; }
+
+  .projects-section { padding: 0 32px 48px; margin-top: 48px; }
+  .project-body { padding: 36px 32px; gap: 48px; }
+  .project-title { font-size: 30px; }
+
+  .about-section { padding: 48px 32px 0; }
+  .about-intro { font-size: 16px; }
+
+  .research-page { padding: 48px 32px 48px; }
+  .pub-page { padding: 32px 32px 64px; }
+
+  .people-section { padding: 48px 0; }
+  .people-inner { padding: 0 32px; }
+  .person-hero { padding: 48px 32px; }
+  .person-content { padding: 48px 32px; }
+
+  .contact-section { padding: 48px 32px; }
+  .advisory-section { padding: 0 32px 48px; }
+
+  .footer-inner { padding: 40px 32px 24px; }
+}
 
 /* Large tablet (≤ 1100px) */
 @media (max-width: 1100px) {
