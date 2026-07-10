@@ -192,8 +192,8 @@ ul { list-style: none; }
   color: white; text-align: left;
 }
 .hero-about-text { display: flex; flex-direction: column; gap: 20px; }
-.hero-about-intro { font-size: clamp(16px, 1.6vw, 22px); line-height: 1.6; font-weight: 700; margin: 0; }
-.hero-about-body { font-size: clamp(14px, 1.3vw, 18px); line-height: 1.6; font-weight: 400; margin: 0; }
+.hero-about-intro { font-size: clamp(15px, 1.2vw, 18px); line-height: 1.6; font-weight: 700; margin: 0; }
+.hero-about-body { font-size: clamp(13px, 1vw, 15px); line-height: 1.6; font-weight: 400; margin: 0; }
 .hero-btn { font-size: 15px; padding: 7px 28px; }
 
 /* ── BUTTON ──────────────────────────────────── */
