@@ -113,7 +113,7 @@ ul { list-style: none; }
   flex: 1; display: flex; align-items: center; justify-content: center;
   position: relative; z-index: 1;
 }
-.hero-logo { height: 105px; width: auto; }
+.hero-logo { height: 60px; width: auto; }
 
 /* ── PROJECTS SECTION ────────────────────────── */
 .projects-section { max-width: 1440px; margin: 64px auto 0; padding: 0 48px 64px; }
@@ -543,7 +543,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .site-header { padding: 14px 24px; }
 
   .hero { height: auto; min-height: 500px; }
-  .hero-logo { height: 80px; }
+  .hero-logo { height: 48px; }
 
   .main-nav { display: none; }
   .menu-toggle { display: block; }
@@ -635,7 +635,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
 }
 
 @media (max-width: 600px) {
-  .hero-logo { height: 60px; }
+  .hero-logo { height: 36px; }
 
   .mega-nav-links { flex-direction: column; gap: 20px; }
   .nav-col-title { font-size: 10px; }
