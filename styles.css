@@ -9,10 +9,10 @@ ul { list-style: none; }
 .site-header {
   position: sticky; top: 0; z-index: 1000;
   background: white; border-bottom: 1px solid #e5e5e5;
-  padding: 16px max(48px, calc((100vw - 1440px) / 2 + 48px));
+  padding: 10px max(48px, calc((100vw - 1440px) / 2 + 48px));
   display: flex; align-items: center; justify-content: space-between;
 }
-.header-logo { height: 34px; width: auto; }
+.header-logo { height: 28px; width: auto; }
 .menu-toggle {
   display: none;
   background: none; border: none; cursor: pointer;
@@ -495,8 +495,8 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
 
 /* Laptop (≤ 1280px) */
 @media (max-width: 1280px) {
-  .site-header { padding: 14px 32px; }
-  .header-logo { height: 36px; }
+  .site-header { padding: 10px 32px; }
+  .header-logo { height: 28px; }
 
   .projects-section { padding: 0 32px 48px; margin-top: 48px; }
   .project-body { padding: 36px 32px; gap: 48px; }
