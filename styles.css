@@ -12,7 +12,7 @@ ul { list-style: none; }
   padding: 10px max(48px, calc((100vw - 1440px) / 2 + 48px));
   display: flex; align-items: center; justify-content: space-between;
 }
-.header-logo { height: 22px; width: auto; }
+.header-logo { height: 18px; width: auto; }
 .menu-toggle {
   display: none;
   background: none; border: none; cursor: pointer;
@@ -224,7 +224,7 @@ ul { list-style: none; }
 
 /* ── SECTION HEADER ──────────────────────────── */
 .section-header { text-align: center; margin-bottom: 48px; }
-.section-header h2 { font-size: 34px; font-weight: 700; margin-bottom: 16px; }
+.section-header h2 { font-size: 26px; font-weight: 700; margin-bottom: 16px; }
 .underline-bar { display: none; }
 .underline-bar-sm { width: 48px; height: 3px; background: white; }
 
@@ -306,7 +306,7 @@ ul { list-style: none; }
 .staff-inner { max-width: 1440px; margin: 0 auto; padding: 0 48px; display: flex; flex-direction: column; gap: 64px; }
 .staff-block { display: flex; flex-direction: column; gap: 36px; }
 .staff-block-header { display: flex; flex-direction: column; gap: 16px; align-items: center; }
-.staff-block-title { font-size: 26px; font-weight: 700; text-align: center; }
+.staff-block-title { font-size: 20px; font-weight: 700; text-align: center; }
 .staff-block-desc { font-size: 15px; color: #525252; text-align: center; max-width: 520px; margin: 0 auto; line-height: 1.4; }
 
 /* ── PROJECT PAGE ────────────────────────────── */
@@ -314,7 +314,7 @@ ul { list-style: none; }
 .project-header { max-width: 875px; margin: 0 auto; padding: 64px 48px 40px; display: flex; flex-direction: column; gap: 40px; }
 .project-header-inner { display: flex; flex-direction: column; gap: 24px; }
 .project-accent { display: none; }
-.project-title { font-size: 36px; font-weight: 700; line-height: 1.1; }
+.project-title { font-size: 28px; font-weight: 700; line-height: 1.1; }
 .project-subtitle { font-size: 15px; color: #525252; font-style: italic; line-height: 1.5; }
 .project-intro { font-size: 17px; line-height: 1.45; }
 .project-intro strong { font-weight: 700; }
@@ -329,7 +329,7 @@ ul { list-style: none; }
 .project-body-text { font-size: 17px; line-height: 1.6; max-width: 1263px; }
 .project-section { display: flex; flex-direction: column; gap: 24px; }
 .project-section > p { }
-.project-section-title { font-size: 24px; font-weight: 500; line-height: 1.3; margin: 0; }
+.project-section-title { font-size: 20px; font-weight: 500; line-height: 1.3; margin: 0; }
 .project-section-text { font-size: 17px; line-height: 1.55; }
 .project-row { display: flex; gap: 40px; align-items: flex-start; }
 .project-row > * { min-width: 0; }
@@ -496,11 +496,11 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
 /* Laptop (≤ 1280px) */
 @media (max-width: 1280px) {
   .site-header { padding: 10px 32px; }
-  .header-logo { height: 28px; }
+  .header-logo { height: 18px; }
 
   .projects-section { padding: 0 32px 48px; margin-top: 48px; }
   .project-body { padding: 36px 32px; gap: 48px; }
-  .project-title { font-size: 30px; }
+  .project-title { font-size: 24px; }
 
   .about-section { padding: 48px 32px 0; }
   .about-intro { font-size: 16px; }
@@ -654,7 +654,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
 
   .about-intro { font-size: 16px; }
   .about-body { font-size: 14px; }
-  .header-logo { height: 28px; }
+  .header-logo { height: 18px; }
   .hero-about { padding: 32px 16px; }
   .hero-about-body { display: none; }
   .hero-about-intro { font-size: 15px; }
