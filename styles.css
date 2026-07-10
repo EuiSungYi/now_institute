@@ -306,8 +306,8 @@ ul { list-style: none; }
 .staff-inner { max-width: 1440px; margin: 0 auto; padding: 0 48px; display: flex; flex-direction: column; gap: 64px; }
 .staff-block { display: flex; flex-direction: column; gap: 36px; }
 .staff-block-header { display: flex; flex-direction: column; gap: 16px; align-items: center; }
-.staff-block-title { font-size: 34px; font-weight: 700; text-align: center; }
-.staff-block-desc { font-size: 16px; color: #525252; text-align: center; max-width: 520px; margin: 0 auto; line-height: 1.4; }
+.staff-block-title { font-size: 26px; font-weight: 700; text-align: center; }
+.staff-block-desc { font-size: 15px; color: #525252; text-align: center; max-width: 520px; margin: 0 auto; line-height: 1.4; }
 
 /* ── PROJECT PAGE ────────────────────────────── */
 .project-page { max-width: 1440px; margin: 0 auto; }
@@ -790,12 +790,12 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
 
 /* ── STAFF PAGE ──────────────────────────────── */
 .staff-page { display: flex; flex-direction: column; gap: 0; }
-.staff-section { padding: 64px 0; }
+.staff-section { padding: 48px 0; }
 .page-research-staff .staff-section { background: #fafafa; }
 .staff-section .section-header { margin-bottom: 48px; }
 .staff-grid { display: flex; flex-wrap: wrap; gap: 24px; justify-content: center; max-width: 1200px; margin: 0 auto; padding: 0 24px; }
-.staff-card { width: 260px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; text-align: center; background: white; border: 2px solid #e5e5e5; min-height: 100px; padding: 16px; }
-.staff-photo-placeholder { width: 100%; height: 200px; background: #d9d9d9; }
+.staff-card { width: 220px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; text-align: center; background: white; border: 2px solid #e5e5e5; min-height: 80px; padding: 14px; }
+.staff-photo-placeholder { width: 100%; height: 160px; background: #d9d9d9; }
 .staff-info { display: flex; flex-direction: column; gap: 4px; }
 .staff-name { font-size: 15px; font-weight: 600; }
 .staff-role { font-size: 13px; color: #525252; }
