@@ -7,6 +7,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .inst-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; }
+    .inst-card { border: 1px solid #e5e5e5; padding: 16px; display: flex; flex-direction: column; gap: 4px; }
+    .inst-num { font-size: 13px; color: #525252; }
+    .inst-name { font-size: 15px; color: black; font-weight: 500; }
+    @media (max-width: 900px) { .inst-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 480px) { .inst-grid { grid-template-columns: 1fr; } }
+  </style>
 </head>
 <body class="page-research-network">
 
@@ -38,32 +46,35 @@
   </div>
 </nav>
 
-<section class="uni-section">
-  <div class="section-header">
-    <h2>Research Network</h2>
-    <div class="underline-bar"></div>
+<div class="project-page">
+  <div class="project-body">
+
+    <div class="project-section">
+      <h1 class="project-title">Research Network</h1>
+      <p>Supported by 13 schools of architecture across the country.</p>
+      <div class="inst-grid">
+        <div class="inst-card"><span class="inst-num">01</span><span class="inst-name">Columbia</span></div>
+        <div class="inst-card"><span class="inst-num">02</span><span class="inst-name">Cornell</span></div>
+        <div class="inst-card"><span class="inst-num">03</span><span class="inst-name">Harvard GSD</span></div>
+        <div class="inst-card"><span class="inst-num">04</span><span class="inst-name">University of Kentucky</span></div>
+        <div class="inst-card"><span class="inst-num">05</span><span class="inst-name">University of Pennsylvania</span></div>
+        <div class="inst-card"><span class="inst-num">06</span><span class="inst-name">Pratt</span></div>
+        <div class="inst-card"><span class="inst-num">07</span><span class="inst-name">MIT</span></div>
+        <div class="inst-card"><span class="inst-num">08</span><span class="inst-name">Princeton</span></div>
+        <div class="inst-card"><span class="inst-num">09</span><span class="inst-name">Rensselaer Polytechnic</span></div>
+        <div class="inst-card"><span class="inst-num">10</span><span class="inst-name">Rice University</span></div>
+        <div class="inst-card"><span class="inst-num">11</span><span class="inst-name">Syracuse</span></div>
+        <div class="inst-card"><span class="inst-num">12</span><span class="inst-name">University of Michigan</span></div>
+        <div class="inst-card"><span class="inst-num">13</span><span class="inst-name">Art Center College of Design</span></div>
+        <div class="inst-card"><span class="inst-num">14</span><span class="inst-name">California Institute of the Arts (CalArts)</span></div>
+        <div class="inst-card"><span class="inst-num">15</span><span class="inst-name">RAND Corporation</span></div>
+        <div class="inst-card"><span class="inst-num">16</span><span class="inst-name">Inha University</span></div>
+        <div class="inst-card"><span class="inst-num">17</span><span class="inst-name">Beijing University of Technology</span></div>
+      </div>
+    </div>
+
   </div>
-  <p class="section-desc">Supported by 13 schools of architecture across the country.</p>
-  <div class="uni-grid">
-    <div class="uni-card"><img src="images/9782223a-469e-45f8-a634-d5fd0759d54d%201.png" alt="Columbia"><div class="uni-overlay"></div><div class="uni-label">Columbia</div></div>
-    <div class="uni-card"><img src="images/1_JiD3_Vof-Fy71LVbHSAaVQ%201.png" alt="Cornell"><div class="uni-overlay"></div><div class="uni-label">Cornell</div></div>
-    <div class="uni-card"><img src="images/Gund_Hall_Aerial%201.png" alt="Harvard GSD"><div class="uni-overlay"></div><div class="uni-label">Harvard GSD</div></div>
-    <div class="uni-card"><img src="images/157085_hero%201.png" alt="University of Kentucky" style="object-position:center;"><div class="uni-overlay"></div><div class="uni-label">University of Kentucky</div></div>
-    <div class="uni-card"><img src="images/Rectangle%2010.png" alt="University of Pennsylvania"><div class="uni-overlay"></div><div class="uni-label">University of Pennsylvania</div></div>
-    <div class="uni-card"><img src="images/Rectangle%2011.png" alt="Pratt"><div class="uni-overlay"></div><div class="uni-label">Pratt</div></div>
-    <div class="uni-card"><img src="images/Rectangle%2012.png" alt="MIT"><div class="uni-overlay"></div><div class="uni-label">MIT</div></div>
-    <div class="uni-card"><img src="images/Rectangle%2013.png" alt="Princeton"><div class="uni-overlay"></div><div class="uni-label">Princeton</div></div>
-    <div class="uni-card"><img src="images/0x0.jpeg" alt="Rensselaer Polytechnic"><div class="uni-overlay"></div><div class="uni-label">Rensselaer Polytechnic</div></div>
-    <div class="uni-card"><img src="images/Rectangle%2015.png" alt="Rice University"><div class="uni-overlay"></div><div class="uni-label">Rice University</div></div>
-    <div class="uni-card"><img src="images/Rectangle%2016.png" alt="Syracuse"><div class="uni-overlay"></div><div class="uni-label">Syracuse</div></div>
-    <div class="uni-card"><img src="images/Rectangle%2017.png" alt="University of Michigan"><div class="uni-overlay"></div><div class="uni-label">University of Michigan</div></div>
-    <div class="uni-card"><img src="images/Rectangle%2018.png" alt="Art Center College of Design"><div class="uni-overlay"></div><div class="uni-label">Art Center College of Design</div></div>
-    <div class="uni-card"><img src="images/Rectangle%2019.png" alt="California Institute of the Arts (CalArts)"><div class="uni-overlay"></div><div class="uni-label">California Institute of the Arts (CalArts)</div></div>
-    <div class="uni-card"><img src="images/1777066479356.png" alt="RAND Corporation"><div class="uni-overlay"></div><div class="uni-label">RAND Corporation</div></div>
-    <div class="uni-card"><img src="images/Rectangle%2021.png" alt="Inha University"><div class="uni-overlay"></div><div class="uni-label">Inha University</div></div>
-    <div class="uni-card"><img src="images/Rectangle%2022.png" alt="Beijing University of Technology"><div class="uni-overlay"></div><div class="uni-label">Beijing University of Technology</div></div>
-  </div>
-</section>
+</div>
 
 <footer>
   <div class="footer-inner">
