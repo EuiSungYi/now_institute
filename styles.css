@@ -104,14 +104,14 @@ ul { list-style: none; }
 
 /* ── HERO ────────────────────────────────────── */
 .hero {
-  position: relative; width: 100%; height: min(900px, 85vh);
-  display: flex; flex-direction: column; justify-content: flex-end;
+  position: relative; width: 100%; height: min(700px, 80vh);
+  display: flex; flex-direction: column;
   background: #d9d9d9; overflow: hidden;
 }
 .hero-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 55%; }
 .hero-logo-wrap {
-  position: absolute; left: 50%; top: calc(50% - 160px);
-  transform: translate(-50%, -50%);
+  flex: 1; display: flex; align-items: center; justify-content: center;
+  position: relative; z-index: 1;
 }
 .hero-logo { height: 105px; width: auto; }
 
@@ -180,7 +180,7 @@ ul { list-style: none; }
 
 /* ── HERO ABOUT DARK BAND ────────────────────── */
 .hero-about {
-  padding: clamp(32px, 6vh, 72px) clamp(60px, 14vw, 280px); position: relative; flex-shrink: 0;
+  padding: clamp(24px, 4vh, 48px) clamp(60px, 14vw, 280px); position: relative; flex-shrink: 0;
   align-self: center; width: fit-content;
   background: rgba(0,0,0,0.85);
   transform: translateY(100%);
@@ -543,7 +543,6 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .site-header { padding: 14px 24px; }
 
   .hero { height: auto; min-height: 500px; }
-  .hero-logo-wrap { top: 40%; }
   .hero-logo { height: 80px; }
 
   .main-nav { display: none; }
@@ -636,7 +635,6 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
 }
 
 @media (max-width: 600px) {
-  .hero-logo-wrap { top: 35%; }
   .hero-logo { height: 60px; }
 
   .mega-nav-links { flex-direction: column; gap: 20px; }
