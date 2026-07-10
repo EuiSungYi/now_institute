@@ -405,7 +405,7 @@ ul { list-style: none; }
 
 /* ── PAGE HEADER (inner pages) ───────────────── */
 .page-hero { background: #fafafa; padding: 64px 48px; text-align: center; }
-.page-hero h1 { font-size: 36px; font-weight: 700; margin-bottom: 16px; }
+.page-hero h1 { font-size: 28px; font-weight: 700; margin-bottom: 16px; }
 .page-content { max-width: 1440px; margin: 0 auto; padding: 64px 48px 64px; }
 
 /* ── CONTACT ─────────────────────────────────── */
@@ -736,7 +736,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
 .person-hero > img { flex: 0 1 495px; min-width: 0; height: 480px; object-fit: cover; object-position: top center; }
 .person-hero-info { display: flex; flex-direction: column; gap: 24px; flex: 0 1 495px; min-width: 0; }
 .person-hero-name { display: flex; flex-direction: column; gap: 16px; }
-.person-hero-info h1 { font-size: 36px; font-weight: 700; margin: 0; color: white; }
+.person-hero-info h1 { font-size: 28px; font-weight: 700; margin: 0; color: white; }
 .person-roles { display: flex; flex-direction: column; gap: 20px; }
 .person-role-item { display: flex; flex-direction: column; gap: 2px; }
 .person-role-title { font-size: 14px; color: #aaa; line-height: 1.4; }
