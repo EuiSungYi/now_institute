@@ -354,7 +354,7 @@ ul { list-style: none; }
 .research-split-text li { margin-bottom: 12px; line-height: 1.6; }
 /* Publication detail pages */
 .pub-page { max-width: 1440px; margin: 0 auto; padding: 64px 48px 64px; display: flex; flex-direction: column; gap: 32px; }
-.pub-page .pub-title { font-size: 36px; font-weight: 700; line-height: 1.1; margin: 0; }
+.pub-page .pub-title { font-size: 28px; font-weight: 700; line-height: 1.1; margin: 0; }
 .pub-img-full { width: 100%; display: block; }
 .pub-img-full.cropped { max-height: 580px; object-fit: cover; object-position: center; }
 .pub-body { display: flex; flex-direction: column; gap: 20px; align-items: flex-start; }
