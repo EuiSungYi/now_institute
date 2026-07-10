@@ -12,7 +12,7 @@ ul { list-style: none; }
   padding: 10px max(48px, calc((100vw - 1440px) / 2 + 48px));
   display: flex; align-items: center; justify-content: space-between;
 }
-.header-logo { height: 28px; width: auto; }
+.header-logo { height: 22px; width: auto; }
 .menu-toggle {
   display: none;
   background: none; border: none; cursor: pointer;
