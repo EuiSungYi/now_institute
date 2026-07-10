@@ -228,6 +228,12 @@ ul { list-style: none; }
 .underline-bar { display: none; }
 .underline-bar-sm { width: 48px; height: 3px; background: white; }
 
+/* ── INSTITUTION TEXT GRID ───────────────────── */
+.inst-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; }
+.inst-card { border: 1px solid #e5e5e5; padding: 16px; display: flex; flex-direction: column; gap: 4px; }
+.inst-num { font-size: 13px; color: #525252; }
+.inst-name { font-size: 15px; color: black; font-weight: 500; }
+
 /* ── UNIVERSITY GRID ─────────────────────────── */
 .uni-section { max-width: 1440px; margin: 64px auto 0; padding: 0 48px; }
 .uni-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
@@ -569,6 +575,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
 
   .uni-section { padding: 0 24px; }
   .uni-grid { grid-template-columns: repeat(2, 1fr); }
+  .inst-grid { grid-template-columns: repeat(2, 1fr); }
 
   .page-research-staff .staff-grid { grid-template-columns: repeat(2, 1fr); }
   .page-research-staff .researchers-grid { grid-template-columns: repeat(2, 1fr); }
