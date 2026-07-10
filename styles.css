@@ -375,7 +375,7 @@ ul { list-style: none; }
 }
 
 /* ── ADVISORY BOARD ──────────────────────────── */
-.advisory-section { max-width: 1440px; margin: 0 auto; padding: 0 48px 80px; display: flex; flex-direction: column; gap: 24px; }
+.advisory-section { max-width: 1440px; margin: 0 auto; padding: 64px 48px 80px; display: flex; flex-direction: column; gap: 24px; }
 .advisory-section .section-header { text-align: left; }
 .advisory-section .underline-bar { margin: 0; }
 .advisory-title { font-size: 24px; font-weight: 500; }
@@ -533,7 +533,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
 
   /* Project rows: allow images and divs to shrink proportionally */
   .project-row { gap: 24px; }
-  .project-row img { flex-shrink: 1 !important; height: auto !important; }
+  .project-row img { flex-shrink: 1 !important; height: auto !important; min-height: 0 !important; }
   .project-row > div { flex-shrink: 1 !important; }
   .project-row > h2 { flex-shrink: 1 !important; width: auto !important; }
 }
@@ -606,7 +606,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   /* Stack side-by-side project rows */
   .project-row { flex-direction: column !important; gap: 16px !important; }
   .project-row > * { width: 100% !important; max-width: 100% !important; flex-shrink: 1 !important; }
-  .project-row img { height: auto !important; }
+  .project-row img { height: auto !important; min-height: 0 !important; }
 
   /* Fix negative-margin bleed box */
   .project-vol2-box { padding: 32px 24px; }
