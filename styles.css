@@ -474,10 +474,10 @@ ul { list-style: none; }
 .page-partners-advisors { background: #fafafa; }
 .page-partners-advisors footer { margin-top: 0; }
 
-footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-top: 0; }
+footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-top: 80px; }
 .footer-inner { max-width: 1440px; margin: 0 auto; padding: 0 48px; display: flex; flex-direction: column; gap: 40px; }
 .footer-top { display: flex; align-items: flex-start; justify-content: space-between; }
-.footer-logo { height: 56px; width: auto; flex-shrink: 0; filter: brightness(0) invert(1); }
+.footer-logo { height: 32px; width: auto; flex-shrink: 0; filter: brightness(0) invert(1); }
 .footer-links { display: flex; gap: 80px; }
 .footer-col { display: flex; flex-direction: column; gap: 16px; }
 .footer-col p, .footer-col a { font-size: 16px; font-weight: 400; line-height: 1.45; color: white; }
