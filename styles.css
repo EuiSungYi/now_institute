@@ -411,7 +411,7 @@ ul { list-style: none; }
 /* ── CONTACT ─────────────────────────────────── */
 .page-heading { display: flex; flex-direction: column; gap: 16px; margin-bottom: 24px; }
 .page-accent-bar { display: none; }
-.page-title { font-size: 36px; font-weight: 700; line-height: 1.1; margin: 0; }
+.page-title { font-size: 28px; font-weight: 700; line-height: 1.1; margin: 0; }
 
 .contact-section { max-width: 1440px; width: 100%; box-sizing: border-box; margin: 0 auto; padding: 64px 48px; flex: 1; }
 .contact-section h2 { font-size: 34px; font-weight: 700; margin: 0; }
