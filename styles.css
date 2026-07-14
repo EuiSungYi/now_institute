@@ -229,8 +229,8 @@ ul { list-style: none; }
 .underline-bar-sm { width: 48px; height: 3px; background: white; }
 
 /* ── INSTITUTION TEXT GRID ───────────────────── */
-.inst-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; }
-.inst-card { border: 1px solid #d0d0d0; padding: 16px; display: flex; flex-direction: column; gap: 4px; }
+.inst-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; border-top: 1px solid #d0d0d0; border-left: 1px solid #d0d0d0; }
+.inst-card { border-right: 1px solid #d0d0d0; border-bottom: 1px solid #d0d0d0; padding: 16px; display: flex; flex-direction: column; gap: 4px; }
 .inst-num { font-size: 13px; color: #525252; }
 .inst-name { font-size: 15px; color: black; font-weight: 500; }
 
