@@ -83,7 +83,7 @@ ul { list-style: none; }
 
 /* ── MEGA NAV ────────────────────────────────── */
 .mega-nav {
-  display: none; position: fixed; inset: 0; z-index: 200;
+  display: none; position: fixed; inset: 0; z-index: 1100;
   background: white; padding: 32px 48px 48px; overflow-y: auto;
 }
 .mega-nav.open { display: flex; flex-direction: column; }
@@ -638,6 +638,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .hero-logo { height: 36px; }
 
   .mega-nav-links { flex-direction: column; gap: 20px; }
+  .mega-nav-links .nav-col-title { margin-bottom: 0; }
   .nav-col-title { font-size: 10px; }
   .nav-col ul li { font-size: 14px; }
 
