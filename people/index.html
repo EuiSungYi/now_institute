@@ -21,6 +21,8 @@
     .page-people .people-content-wrap { width: fit-content; margin: 0 auto; }
     .page-people .people-grid { justify-content: flex-start; }
     .page-people footer { margin-top: 0; }
+    .advisors-clip { position: relative; max-height: 320px; overflow: hidden; }
+    .advisors-clip::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 80px; background: linear-gradient(to bottom, transparent, white); pointer-events: none; }
     @media (max-width: 900px) {
       .page-people .people-content-wrap { width: 100%; }
       .page-people .people-section { padding: 60px 0 80px; }
@@ -216,7 +218,7 @@
         <h2 class="staff-block-title">Now Advisors</h2>
         <div class="underline-bar"></div>
       </div>
-      <div class="pa-advisors-grid">
+      <div class="advisors-clip"><div class="pa-advisors-grid">
         <p class="researcher-name">Hitoshi Abe</p>
         <p class="researcher-name">Frances Anderton</p>
         <p class="researcher-name">Claude Alexandre</p>
@@ -286,7 +288,7 @@
         <p class="researcher-name">Laura Zakaras</p>
         <p class="researcher-name">Regine Zamor</p>
         <p class="researcher-name">Judith Zeller</p>
-      </div>
+      </div></div>
     </div>
 
   </div>
