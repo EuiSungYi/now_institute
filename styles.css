@@ -639,6 +639,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
 
   .mega-nav-links { flex-direction: column; gap: 20px; }
   .mega-nav-links .nav-col-title { margin-bottom: 0; }
+  .mega-nav-links .nav-col ul { margin-top: 12px; }
   .nav-col-title { font-size: 10px; }
   .nav-col ul li { font-size: 14px; }
 
