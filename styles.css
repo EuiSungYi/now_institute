@@ -173,7 +173,7 @@ ul { list-style: none; }
 
 /* ── ABOUT ───────────────────────────────────── */
 .about-section { max-width: 1440px; margin: 0 auto; padding: 64px 48px 0; }
-.about-intro { font-size: 18px; line-height: 1.35; margin-bottom: 24px; font-weight: 400; }
+.about-intro { font-size: 18px; line-height: 1.35; font-weight: 400; }
 .about-intro strong { font-weight: 700; }
 .about-body { font-size: 17px; line-height: 1.55; font-weight: 400; }
 .about-body a { text-decoration: underline; }
