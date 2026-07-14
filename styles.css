@@ -514,7 +514,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .person-content { padding: 48px 32px; }
 
   .contact-section { padding: 48px 32px; }
-  .advisory-section { padding: 0 32px 48px; }
+  .advisory-section { padding: 48px 32px; }
 
   .footer-inner { padding: 40px 32px 24px; }
 }
@@ -593,7 +593,7 @@ footer { background: black; border-top: 1px solid #333; padding: 48px 0; margin-
   .person-content { padding: 40px 24px; }
 
   .project-body { padding: 48px 24px; gap: 48px; }
-  .advisory-section { padding: 0 24px 48px; }
+  .advisory-section { padding: 48px 24px; }
   .contact-section { padding: 48px 24px; }
   .advisory-grid { grid-template-columns: 1fr; }
 
