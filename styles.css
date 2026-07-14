@@ -349,7 +349,7 @@ ul { list-style: none; }
 .research-split-img { flex: 0 0 auto; width: 49%; }
 .research-split-img img { width: 100%; height: auto; display: block; }
 .research-split-text { flex: 1; font-size: 17px; line-height: 1.6; }
-.research-split-text p + p { margin-top: 16px; }
+.research-split-text p + p { margin-top: 24px; }
 .research-split-text ul { margin-left: 24px; list-style: disc; }
 .research-split-text li { margin-bottom: 12px; line-height: 1.6; }
 /* Publication detail pages */
