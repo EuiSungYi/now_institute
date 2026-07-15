@@ -440,8 +440,10 @@ ul { list-style: none; }
 .page-home .projects-section,
 .page-home .research-cards-section { margin-top: 48px; padding-bottom: 0; }
 .page-home .uni-section { margin-top: 48px; padding-bottom: 64px; }
-.page-home .section-desc { margin-bottom: 24px; }
-.home-view-all { display: block; text-align: right; margin-bottom: 16px; }
+.section-desc-row { display: flex; align-items: baseline; justify-content: space-between; gap: 40px; margin-bottom: 24px; }
+.section-desc-row .section-desc,
+.section-desc-row .people-desc { margin-bottom: 0; }
+.home-view-all { flex-shrink: 0; }
 
 /* ── HOME PAGE PEOPLE BAND ───────────────────── */
 .page-home .people-section {
