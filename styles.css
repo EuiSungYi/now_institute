@@ -194,7 +194,7 @@ ul { list-style: none; }
 .hero-about-text { display: flex; flex-direction: column; gap: 20px; }
 .hero-about-intro { font-size: clamp(17px, 1.4vw, 20px); line-height: 1.6; font-weight: 700; margin: 0; }
 .hero-about-body { font-size: clamp(15px, 1.2vw, 17px); line-height: 1.6; font-weight: 400; margin: 0; }
-.hero-btn { color: white; text-decoration-color: white; }
+.hero-about-inner .hero-btn { color: white; text-decoration-color: white; }
 
 /* ── BUTTON ──────────────────────────────────── */
 .btn-outline {
