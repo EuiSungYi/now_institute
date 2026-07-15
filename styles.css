@@ -424,7 +424,8 @@ ul { list-style: none; }
 .page-home .btn-outline-white:hover { background: #e5e5e5; border-color: #e5e5e5; }
 
 /* ── HOME PAGE LEFT ALIGNMENT ────────────────── */
-.page-home .section-header { text-align: left; margin-bottom: 0; }
+.page-home .section-header { text-align: left; margin-bottom: 0; display: flex; align-items: baseline; justify-content: space-between; }
+.page-home .section-header h2 { margin-bottom: 0; }
 .page-home .underline-bar { margin: 0; }
 .page-home .see-more-wrap { text-align: right; }
 .page-home .people-content-wrap { width: fit-content; margin: 0 auto; }
