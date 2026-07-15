@@ -441,7 +441,7 @@ ul { list-style: none; }
 .page-home .projects-section,
 .page-home .research-cards-section { margin-top: 48px; padding-bottom: 0; }
 .page-home .uni-section { margin-top: 48px; padding-bottom: 64px; }
-.section-desc-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 40px; margin-bottom: 16px; }
+.section-desc-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 40px; margin-bottom: 32px; }
 .section-desc-row .section-desc,
 .section-desc-row .people-desc { margin-bottom: 0; }
 .home-view-all { flex-shrink: 0; align-self: flex-end; }
