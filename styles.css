@@ -441,7 +441,7 @@ ul { list-style: none; }
 .page-home .research-cards-section { margin-top: 48px; padding-bottom: 0; }
 .page-home .uni-section { margin-top: 48px; padding-bottom: 64px; }
 .page-home .section-desc { margin-bottom: 20px; }
-.home-view-all { display: block; margin-bottom: 20px; }
+.home-view-all { display: block; text-align: right; margin-bottom: 20px; }
 
 /* ── HOME PAGE PEOPLE BAND ───────────────────── */
 .page-home .people-section {
