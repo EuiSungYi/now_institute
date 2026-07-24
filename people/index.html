@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <title>People – The Now Institute</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +12,7 @@
     .page-people .people-section {
       max-width: none;
       margin-top: 0;
-      padding: 80px 0 120px;
+      padding: 64px 0 120px;
       background: black;
     }
     .page-people .people-section .section-header { text-align: left; margin-bottom: 0; }
@@ -20,6 +21,10 @@
     .page-people .people-content-wrap { width: fit-content; margin: 0 auto; }
     .page-people .people-grid { justify-content: flex-start; }
     .page-people footer { margin-top: 0; }
+    .page-people .staff-block .see-more-wrap { text-align: center; }
+    .page-people .pa-partner-logos { margin-bottom: 24px; }
+    .advisors-clip { position: relative; max-height: 320px; overflow: hidden; }
+    .advisors-clip::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 80px; background: linear-gradient(to bottom, transparent, white); pointer-events: none; }
     @media (max-width: 900px) {
       .page-people .people-content-wrap { width: 100%; }
       .page-people .people-section { padding: 60px 0 80px; }
@@ -32,14 +37,14 @@
 <body class="page-people page-research-staff">
 
 <header class="site-header">
-  <a href="../index.html"><img class="header-logo" src="../images/b48ff48b-4b5d-402b-81db-7ae0b9ae3f49.png" alt="The Now Institute"></a>
+  <a href="../"><img class="header-logo" src="../images/b48ff48b-4b5d-402b-81db-7ae0b9ae3f49.png" alt="The Now Institute"></a>
   <nav class="main-nav">
     <ul class="main-nav-list">
-      <li class="main-nav-item"><a href="../about-overview.html" class="main-nav-link">About</a><ul class="nav-dropdown"><li><a href="../about.html">Overview</a></li><li><a href="../research-network.html">Research Network</a></li><li><a href="../clientele.html">Clientele</a></li></ul></li>
-      <li class="main-nav-item"><a href="index.html" class="main-nav-link active">People</a><ul class="nav-dropdown"><li><a href="thom-mayne.html">Thom Mayne</a></li><li><a href="eui-sung-yi.html">Eui-Sung Yi</a></li><li><a href="research-staff.html">Research Staff</a></li><li><a href="partners-advisors.html">Partners &amp; Advisors</a></li></ul></li>
-      <li class="main-nav-item"><a href="../projects/index.html" class="main-nav-link">Projects</a><ul class="nav-dropdown"><li><a href="../projects/haiti-now.html">Haiti Now / Cap-Haitien Now</a></li><li><a href="../projects/culture-now.html">Culture Now</a></li><li><a href="../projects/new-orleans-now.html">New Orleans Now</a></li><li><a href="../projects/madrid-now.html">Madrid Now</a></li><li><a href="../projects/la-now.html">L.A. Now</a></li><li><a href="../projects/hsinta-ecological-powerplant.html">Hsinta Ecological Powerplant</a></li><li><a href="../projects/south-sea-pearl-artificial-island.html">South Sea Pearl Artificial Island</a></li><li><a href="../projects/art-by-wash.html">Compton Now: Art by WASH</a></li><li><a href="../projects/urban-hydroponics-south-la.html">Urban Hydroponics in South LA</a></li><li><a href="../projects/building-forward-regulatory-reform.html">Building Forward: Regulatory Reform</a></li><li><a href="../projects/irwindale-now.html">Irwindale Now</a></li><li><a href="../projects/noto.html">Noto</a></li><li><a href="../projects/unhoused-housing.html">Unhoused Housing</a></li></ul></li>
-      <li class="main-nav-item"><a href="../publications/index.html" class="main-nav-link">Publications</a><ul class="nav-dropdown"><li><a href="../publications/100-buildings.html">100 Buildings</a></li><li><a href="../publications/cap-haitien-now.html">Cap-Haitien Now</a></li><li><a href="../publications/culture-now.html">Culture Now</a></li><li><a href="../publications/haiti-now.html">Haiti Now</a></li><li class="nav-la-now-toggle" onclick="toggleLaNow(this)">L.A. Now</li><li class="nav-la-now-item"><a href="../publications/la-now-volume-one.html">L.A. Now Vol. 1</a></li><li class="nav-la-now-item"><a href="../publications/la-now-volume-two.html">L.A. Now Vol. 2</a></li><li class="nav-la-now-item"><a href="../publications/la-now-volume-three.html">L.A. Now Vol. 3+4</a></li><li class="nav-la-now-item"><a href="../publications/la-now-grand-challenge.html">L.A. Now Vol. 5: Grand Challenge</a></li><li class="nav-la-now-item"><a href="../publications/la-now-wilshire-boulevard.html">L.A. Now Vol. 6: Wilshire Boulevard</a></li><li><a href="../publications/madrid-now.html">Madrid Now</a></li><li><a href="../publications/mir.html">MIR</a></li><li><a href="../publications/now-quarterly-1.html">Now Quarterly 1</a></li><li><a href="../publications/now-quarterly-2.html">Now Quarterly 2</a></li><li><a href="../publications/suprastudio.html">SUPRASTUDIO</a></li></ul></li>
-      <li class="main-nav-item"><a href="../research/index.html" class="main-nav-link">Research</a><ul class="nav-dropdown"><li><a href="../research/post-industrial-city.html">Post-Industrial City</a></li><li><a href="../research/emerging-asia.html">Emerging Asia</a></li><li><a href="../research/informal-settlements.html">Informal Settlements / Post-Disaster Setting</a></li></ul></li><li class="main-nav-item"><a href="../contact.html" class="main-nav-link">Contact</a></li>
+      <li class="main-nav-item"><a href="../about-overview" class="main-nav-link">About</a></li>
+      <li class="main-nav-item"><a href="./" class="main-nav-link active">People</a><ul class="nav-dropdown"><li><a href="thom-mayne">Thom Mayne</a></li><li><a href="eui-sung-yi">Eui-Sung Yi</a></li><li><a href="research-staff">Research Staff</a></li><li><a href="partners-advisors">Partners &amp; Advisors</a></li></ul></li>
+      <li class="main-nav-item"><a href="../projects/" class="main-nav-link">Projects</a><ul class="nav-dropdown"><li><a href="../projects/haiti-now">Haiti Now / Cap-Haitien Now</a></li><li><a href="../projects/culture-now">Culture Now</a></li><li><a href="../projects/new-orleans-now">New Orleans Now</a></li><li><a href="../projects/madrid-now">Madrid Now</a></li><li><a href="../projects/la-now">L.A. Now</a></li><li><a href="../projects/hsinta-ecological-powerplant">Hsinta Ecological Powerplant</a></li><li><a href="../projects/south-sea-pearl-artificial-island">South Sea Pearl Artificial Island</a></li><li><a href="../projects/art-by-wash">Compton Now: Art by WASH</a></li><li><a href="../projects/urban-hydroponics-south-la">Urban Hydroponics in South LA</a></li><li><a href="../projects/building-forward-regulatory-reform">Building Forward: Regulatory Reform</a></li><li><a href="../projects/irwindale-now">Irwindale Now</a></li><li><a href="../projects/noto">Noto</a></li><li><a href="../projects/unhoused-housing">Unhoused Housing</a></li></ul></li>
+      <li class="main-nav-item"><a href="../publications/" class="main-nav-link">Publications</a><ul class="nav-dropdown"><li><a href="../publications/100-buildings">100 Buildings</a></li><li><a href="../publications/cap-haitien-now">Cap-Haitien Now</a></li><li><a href="../publications/culture-now">Culture Now</a></li><li><a href="../publications/haiti-now">Haiti Now</a></li><li class="nav-la-now-toggle" onclick="toggleLaNow(this)">L.A. Now</li><li class="nav-la-now-item"><a href="../publications/la-now-volume-one">L.A. Now Vol. 1</a></li><li class="nav-la-now-item"><a href="../publications/la-now-volume-two">L.A. Now Vol. 2</a></li><li class="nav-la-now-item"><a href="../publications/la-now-volume-three">L.A. Now Vol. 3+4</a></li><li class="nav-la-now-item"><a href="../publications/la-now-grand-challenge">L.A. Now Vol. 5: Grand Challenge</a></li><li class="nav-la-now-item"><a href="../publications/la-now-wilshire-boulevard">L.A. Now Vol. 6: Wilshire Boulevard</a></li><li><a href="../publications/madrid-now">Madrid Now</a></li><li><a href="../publications/mir">MIR</a></li><li><a href="../publications/now-quarterly-1">Now Quarterly 1</a></li><li><a href="../publications/now-quarterly-2">Now Quarterly 2</a></li></ul></li>
+      <li class="main-nav-item"><a href="../research/" class="main-nav-link">Research</a><ul class="nav-dropdown"><li><a href="../research/post-industrial-city">Post-Industrial City</a></li><li><a href="../research/emerging-asia">Emerging Asia</a></li><li><a href="../research/informal-settlements">Informal Settlements / Post-Disaster Setting</a></li></ul></li><li class="main-nav-item"><a href="../contact" class="main-nav-link">Contact</a></li>
     </ul>
   </nav>
   <button class="menu-toggle" onclick="toggleNav()" aria-label="Open navigation">MENU</button>
@@ -47,15 +52,15 @@
 
 <nav class="mega-nav" id="megaNav" role="dialog" aria-modal="true" aria-label="Site navigation">
   <div class="mega-nav-header">
-    <a href="../index.html" onclick="toggleNav()"><img class="logo" src="../images/white%20logo.png" alt="The Now Institute"></a>
+    <a href="../" onclick="toggleNav()"><img class="logo" src="../images/white%20logo.png" alt="The Now Institute"></a>
     <button class="close-btn" onclick="toggleNav()">&#x2715;</button>
   </div>
   <div class="mega-nav-links">
-    <div class="nav-col"><p class="nav-col-title"><a href="../about-overview.html">About</a></p><ul><li><a href="../about.html">Overview</a></li><li><a href="../research-network.html">Research Network</a></li><li><a href="../clientele.html">Clientele</a></li></ul></div>
-    <div class="nav-col"><p class="nav-col-title"><a href="index.html" class="active">People</a></p><ul><li><a href="thom-mayne.html">Thom Mayne</a></li><li><a href="eui-sung-yi.html">Eui-Sung Yi</a></li><li><a href="research-staff.html">Research Staff</a></li><li><a href="partners-advisors.html">Partners &amp; Advisors</a></li></ul></div>
-    <div class="nav-col"><p class="nav-col-title"><a href="../projects/index.html">Projects</a></p><ul><li><a href="../projects/haiti-now.html">Haiti Now / Cap-Haitien Now</a></li><li><a href="../projects/culture-now.html">Culture Now</a></li><li><a href="../projects/new-orleans-now.html">New Orleans Now</a></li><li><a href="../projects/madrid-now.html">Madrid Now</a></li><li><a href="../projects/la-now.html">L.A. Now</a></li><li><a href="../projects/hsinta-ecological-powerplant.html">Hsinta Ecological Powerplant</a></li><li><a href="../projects/south-sea-pearl-artificial-island.html">South Sea Pearl Artificial Island</a></li><li><a href="../projects/art-by-wash.html">Compton Now: Art by WASH</a></li><li><a href="../projects/urban-hydroponics-south-la.html">Urban Hydroponics in South LA</a></li><li><a href="../projects/building-forward-regulatory-reform.html">Building Forward: Regulatory Reform</a></li><li><a href="../projects/irwindale-now.html">Irwindale Now</a></li><li><a href="../projects/noto.html">Noto</a></li><li><a href="../projects/unhoused-housing.html">Unhoused Housing</a></li></ul></div>
-    <div class="nav-col"><p class="nav-col-title"><a href="../publications/index.html">Publications</a></p><ul><li><a href="../publications/100-buildings.html">100 Buildings</a></li><li><a href="../publications/cap-haitien-now.html">Cap-Haitien Now</a></li><li><a href="../publications/culture-now.html">Culture Now</a></li><li><a href="../publications/haiti-now.html">Haiti Now</a></li><li class="nav-la-now-toggle" onclick="toggleLaNow(this)">L.A. Now</li><li class="nav-la-now-item"><a href="../publications/la-now-volume-one.html">L.A. Now Vol. 1</a></li><li class="nav-la-now-item"><a href="../publications/la-now-volume-two.html">L.A. Now Vol. 2</a></li><li class="nav-la-now-item"><a href="../publications/la-now-volume-three.html">L.A. Now Vol. 3+4</a></li><li class="nav-la-now-item"><a href="../publications/la-now-grand-challenge.html">L.A. Now Vol. 5: Grand Challenge</a></li><li class="nav-la-now-item"><a href="../publications/la-now-wilshire-boulevard.html">L.A. Now Vol. 6: Wilshire Boulevard</a></li><li><a href="../publications/madrid-now.html">Madrid Now</a></li><li><a href="../publications/mir.html">MIR</a></li><li><a href="../publications/now-quarterly-1.html">Now Quarterly 1</a></li><li><a href="../publications/now-quarterly-2.html">Now Quarterly 2</a></li><li><a href="../publications/suprastudio.html">SUPRASTUDIO</a></li></ul></div>
-    <div class="nav-col"><p class="nav-col-title"><a href="../research/index.html">Research</a></p><ul><li><a href="../research/post-industrial-city.html">Post-Industrial City</a></li><li><a href="../research/emerging-asia.html">Emerging Asia</a></li><li><a href="../research/informal-settlements.html">Informal Settlements / Post-Disaster Setting</a></li></ul></div><div class="nav-col"><p class="nav-col-title"><a href="../contact.html">Contact</a></p></div>
+    <div class="nav-col"><p class="nav-col-title"><a href="../about-overview">About</a></p></div>
+    <div class="nav-col"><p class="nav-col-title"><a href="./" class="active">People</a></p><ul><li><a href="thom-mayne">Thom Mayne</a></li><li><a href="eui-sung-yi">Eui-Sung Yi</a></li><li><a href="research-staff">Research Staff</a></li><li><a href="partners-advisors">Partners &amp; Advisors</a></li></ul></div>
+    <div class="nav-col"><p class="nav-col-title"><a href="../projects/">Projects</a></p><ul><li><a href="../projects/haiti-now">Haiti Now / Cap-Haitien Now</a></li><li><a href="../projects/culture-now">Culture Now</a></li><li><a href="../projects/new-orleans-now">New Orleans Now</a></li><li><a href="../projects/madrid-now">Madrid Now</a></li><li><a href="../projects/la-now">L.A. Now</a></li><li><a href="../projects/hsinta-ecological-powerplant">Hsinta Ecological Powerplant</a></li><li><a href="../projects/south-sea-pearl-artificial-island">South Sea Pearl Artificial Island</a></li><li><a href="../projects/art-by-wash">Compton Now: Art by WASH</a></li><li><a href="../projects/urban-hydroponics-south-la">Urban Hydroponics in South LA</a></li><li><a href="../projects/building-forward-regulatory-reform">Building Forward: Regulatory Reform</a></li><li><a href="../projects/irwindale-now">Irwindale Now</a></li><li><a href="../projects/noto">Noto</a></li><li><a href="../projects/unhoused-housing">Unhoused Housing</a></li></ul></div>
+    <div class="nav-col"><p class="nav-col-title"><a href="../publications/">Publications</a></p><ul><li><a href="../publications/100-buildings">100 Buildings</a></li><li><a href="../publications/cap-haitien-now">Cap-Haitien Now</a></li><li><a href="../publications/culture-now">Culture Now</a></li><li><a href="../publications/haiti-now">Haiti Now</a></li><li class="nav-la-now-toggle" onclick="toggleLaNow(this)">L.A. Now</li><li class="nav-la-now-item"><a href="../publications/la-now-volume-one">L.A. Now Vol. 1</a></li><li class="nav-la-now-item"><a href="../publications/la-now-volume-two">L.A. Now Vol. 2</a></li><li class="nav-la-now-item"><a href="../publications/la-now-volume-three">L.A. Now Vol. 3+4</a></li><li class="nav-la-now-item"><a href="../publications/la-now-grand-challenge">L.A. Now Vol. 5: Grand Challenge</a></li><li class="nav-la-now-item"><a href="../publications/la-now-wilshire-boulevard">L.A. Now Vol. 6: Wilshire Boulevard</a></li><li><a href="../publications/madrid-now">Madrid Now</a></li><li><a href="../publications/mir">MIR</a></li><li><a href="../publications/now-quarterly-1">Now Quarterly 1</a></li><li><a href="../publications/now-quarterly-2">Now Quarterly 2</a></li></ul></div>
+    <div class="nav-col"><p class="nav-col-title"><a href="../research/">Research</a></p><ul><li><a href="../research/post-industrial-city">Post-Industrial City</a></li><li><a href="../research/emerging-asia">Emerging Asia</a></li><li><a href="../research/informal-settlements">Informal Settlements / Post-Disaster Setting</a></li></ul></div><div class="nav-col"><p class="nav-col-title"><a href="../contact">Contact</a></p></div>
   </div>
 </nav>
 
@@ -67,14 +72,14 @@
       </div>
       <p class="people-desc">Our team, led by Pritzker Prize-winner Thom Mayne and Eui-Sung Yi, comprises advocates and thinkers from different fields and backgrounds.</p>
       <div class="people-grid">
-        <a href="thom-mayne.html" class="person-card">
+        <a href="thom-mayne" class="person-card">
           <img src="../images/2020_Thom-Mayne_Portrait_Credit-Michael-Powers.jpg" alt="Thom Mayne">
           <div class="person-info">
             <div class="person-bar"></div>
             <div class="person-text"><p>Thom Mayne</p><p>Founding Executive Director</p></div>
           </div>
         </a>
-        <a href="eui-sung-yi.html" class="person-card">
+        <a href="eui-sung-yi" class="person-card">
           <img src="../images/ESY_IMG_3469_MP.JPG" alt="Eui-Sung Yi">
           <div class="person-info">
             <div class="person-bar"></div>
@@ -91,9 +96,8 @@
 
     <div class="staff-block">
       <div class="staff-block-header">
-        <h2 class="staff-block-title">Staff</h2>
+        <h2 class="staff-block-title">Research Staff</h2>
         <div class="underline-bar"></div>
-        <p class="staff-block-desc">Our dedicated staff members coordinate research initiatives, manage programs, and bring design expertise to the Now Institute.</p>
       </div>
       <div class="staff-grid">
         <div class="staff-card">
@@ -113,39 +117,12 @@
           <p class="staff-role">Designer</p>
         </div>
       </div>
+      <div class="see-more-wrap"><a href="research-staff" class="btn-text">View All</a></div>
     </div>
 
     <div class="staff-block">
       <div class="staff-block-header">
-        <h2 class="staff-block-title">Researchers</h2>
-        <div class="underline-bar"></div>
-        <p class="staff-block-desc">A multidisciplinary team of researchers conducting data-driven investigations and collaborative design proposals.</p>
-      </div>
-      <div class="staff-grid researchers-grid">
-        <div class="staff-card"><p class="researcher-name">Xuequi Bai</p></div>
-        <div class="staff-card"><p class="researcher-name">Samuel Bent</p></div>
-        <div class="staff-card"><p class="researcher-name">Omar Hague</p></div>
-        <div class="staff-card"><p class="researcher-name">Shobitha Jacob</p></div>
-        <div class="staff-card"><p class="researcher-name">Chenguang Li</p></div>
-        <div class="staff-card"><p class="researcher-name">Xi Lao</p></div>
-        <div class="staff-card"><p class="researcher-name">Marieh Mehrannezhad</p></div>
-        <div class="staff-card"><p class="researcher-name">Apurva Purandare</p></div>
-        <div class="staff-card"><p class="researcher-name">Andre Simapranata</p></div>
-        <div class="staff-card"><p class="researcher-name">Jiani Song</p></div>
-        <div class="staff-card"><p class="researcher-name">Tuo Sun</p></div>
-        <div class="staff-card"><p class="researcher-name">Wei-Chieh Tsai</p></div>
-        <div class="staff-card"><p class="researcher-name">Duo Wang</p></div>
-        <div class="staff-card"><p class="researcher-name">Jue Wang</p></div>
-        <div class="staff-card"><p class="researcher-name">Runzhi Wang</p></div>
-        <div class="staff-card"><p class="researcher-name">Shuoyang Wang</p></div>
-        <div class="staff-card"><p class="researcher-name">Kun Yang</p></div>
-        <div class="staff-card"><p class="researcher-name">Hun Tao Yu</p></div>
-      </div>
-    </div>
-
-    <div class="staff-block">
-      <div class="staff-block-header">
-        <h2 class="staff-block-title">Partnerships</h2>
+        <h2 class="staff-block-title">Partners &amp; Advisors</h2>
         <div class="underline-bar"></div>
       </div>
       <div class="pa-partner-logos">
@@ -156,25 +133,6 @@
         <div class="pa-partner-logo"><img src="../images/MG%2BIOES%2Blogo.webp" alt="MG IOES"></div>
         <div class="pa-partner-logo"><img src="../images/kilowatt%2Blogo_082818.webp" alt="Kilowatt"></div>
         <div class="pa-partner-logo"><img src="../images/Kolon%2BLogo_082818.webp" alt="Kolon"></div>
-      </div>
-    </div>
-
-    <div class="staff-block">
-      <div class="staff-block-header">
-        <h2 class="staff-block-title">Support</h2>
-        <div class="underline-bar"></div>
-      </div>
-      <div class="pa-support-text">
-        <p>Funding for the NOW publication series has been provided by the <a href="http://www.grahamfoundation.org/" target="_blank" rel="noopener">Graham Foundation for Advanced Studies in the Fine Arts</a>.</p>
-        <p>Funding for Culture NOW was generously provided by: UCLA School of Architecture and Urban Design, Happold Trust, Buro Happold Los Angeles, Herta and Paul Amir, Joyce and Aubrey Chernick, Ralph and Shirley Shapiro, Hathaway Dinwiddie, F. J. Sciame Construction Co., Inc., Davis Langdon, John A. Martin &amp; Associates, Balfour Beatty Construction, among other.</p>
-        <p>Funding for Haiti NOW was provided by: The Graham Foundation for Advanced Studies in the Fine Arts, UCLA Office of the Chancellor, UCLA Office of the Vice Chancellor of Research, UCLA School of the Arts and Architecture, UCLA School of Architecture and Urban Design, Haiti Development Group, Morphosis.</p>
-      </div>
-    </div>
-
-    <div class="staff-block">
-      <div class="staff-block-header">
-        <h2 class="staff-block-title">Advisory Board</h2>
-        <div class="underline-bar"></div>
       </div>
       <div class="pa-board-grid">
         <div class="pa-board-card">
@@ -210,84 +168,7 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="staff-block">
-      <div class="staff-block-header">
-        <h2 class="staff-block-title">Now Advisors</h2>
-        <div class="underline-bar"></div>
-      </div>
-      <div class="pa-advisors-grid">
-        <p class="researcher-name">Hitoshi Abe</p>
-        <p class="researcher-name">Frances Anderton</p>
-        <p class="researcher-name">Claude Alexandre</p>
-        <p class="researcher-name">Orhan Ayyüce</p>
-        <p class="researcher-name">Iwan Baan</p>
-        <p class="researcher-name">Stéphanie Balmir Villedrouin</p>
-        <p class="researcher-name">Rev. Canon Ogé Beauvoir</p>
-        <p class="researcher-name">Alan Berger</p>
-        <p class="researcher-name">Alex Bellande</p>
-        <p class="researcher-name">Jacques Bilodeau</p>
-        <p class="researcher-name">Robin Blair</p>
-        <p class="researcher-name">Gene Block</p>
-        <p class="researcher-name">Natalie Brunet</p>
-        <p class="researcher-name">Nadège T. Clitandre</p>
-        <p class="researcher-name">Matthew Coolidge</p>
-        <p class="researcher-name">Heidi Creighton</p>
-        <p class="researcher-name">Dana Cuff</p>
-        <p class="researcher-name">Kenny Cupers</p>
-        <p class="researcher-name">Guy Custis</p>
-        <p class="researcher-name">Michael Dear</p>
-        <p class="researcher-name">Stefano de Martino</p>
-        <p class="researcher-name">Neli Denari</p>
-        <p class="researcher-name">Robin Derby</p>
-        <p class="researcher-name">David Fletcher</p>
-        <p class="researcher-name">Tom Gilmore</p>
-        <p class="researcher-name">Rose-May Guignard</p>
-        <p class="researcher-name">David Herd</p>
-        <p class="researcher-name">Con Howe</p>
-        <p class="researcher-name">Casey Jones</p>
-        <p class="researcher-name">Dana Hutt</p>
-        <p class="researcher-name">Michaëlle Jean</p>
-        <p class="researcher-name">Nathalie Jolivert</p>
-        <p class="researcher-name">Victor Jones</p>
-        <p class="researcher-name">John Kaliski</p>
-        <p class="researcher-name">Richard Koshalek</p>
-        <p class="researcher-name">Micheline Laflamme</p>
-        <p class="researcher-name">Wilson Laleou</p>
-        <p class="researcher-name">Sylvia Lavin</p>
-        <p class="researcher-name">Lars Lerup</p>
-        <p class="researcher-name">Andrew Liang</p>
-        <p class="researcher-name">Ben Loescher</p>
-        <p class="researcher-name">Michael LoGrande</p>
-        <p class="researcher-name">Julia Lowell</p>
-        <p class="researcher-name">Greg Lynn</p>
-        <p class="researcher-name">Frederick Mangones</p>
-        <p class="researcher-name">Claudine Michel</p>
-        <p class="researcher-name">Greg Otto</p>
-        <p class="researcher-name">Jan Perry</p>
-        <p class="researcher-name">Kesner Pharrell</p>
-        <p class="researcher-name">Albert Pope</p>
-        <p class="researcher-name">Stephanie Reich</p>
-        <p class="researcher-name">Nelson Rising</p>
-        <p class="researcher-name">Ian Robertson</p>
-        <p class="researcher-name">Annunzie Roi</p>
-        <p class="researcher-name">Dan Rosenfeld</p>
-        <p class="researcher-name">Hervé Sabin</p>
-        <p class="researcher-name">Roger Sherman</p>
-        <p class="researcher-name">Michael Speaks</p>
-        <p class="researcher-name">Nicola Twilley</p>
-        <p class="researcher-name">Frantz Voltaire</p>
-        <p class="researcher-name">Charles Waldheim</p>
-        <p class="researcher-name">Christopher Waterman</p>
-        <p class="researcher-name">Richard Weinstein</p>
-        <p class="researcher-name">Brandon Welling</p>
-        <p class="researcher-name">Deborah Weintraub</p>
-        <p class="researcher-name">Jean Wiener</p>
-        <p class="researcher-name">Laura Zakaras</p>
-        <p class="researcher-name">Regine Zamor</p>
-        <p class="researcher-name">Judith Zeller</p>
-      </div>
+      <div class="see-more-wrap"><a href="partners-advisors" class="btn-text">View All</a></div>
     </div>
 
   </div>
@@ -298,8 +179,8 @@
     <div class="footer-top">
       <img class="footer-logo" src="../images/b48ff48b-4b5d-402b-81db-7ae0b9ae3f49.png" alt="The Now Institute">
       <div class="footer-links">
-        <div class="footer-col"><p><a href="../about-overview.html">About</a></p><p><a href="index.html">People</a></p><p><a href="../projects/index.html">Projects</a></p><p><a href="../publications/index.html">Publications</a></p><p><a href="../research/index.html">Research</a></p></div>
-        <div class="footer-col"><p><a href="../contact.html">Contact</a></p><a href="mailto:info@thenowinstitute.org">info@thenowinstitute.org</a><p>+1 (424) 258-6209</p><p>3440 Wesley Street<br>Culver City, CA 90232</p></div>
+        <div class="footer-col"><p><a href="../about-overview">About</a></p><p><a href="./">People</a></p><p><a href="../projects/">Projects</a></p><p><a href="../publications/">Publications</a></p><p><a href="../research/">Research</a></p></div>
+        <div class="footer-col"><p><a href="../contact">Contact</a></p><p>+1 (424) 258-6209</p><p>3440 Wesley Street<br>Culver City, CA 90232</p></div>
       </div>
     </div>
     <p class="footer-copyright">Copyright &copy; 2026 <a href="https://www.thenowinstitute.org/" target="_blank" rel="noopener">The Now Institute</a></p>
