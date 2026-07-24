@@ -365,6 +365,10 @@ ul { list-style: none; }
 .pub-split-body { flex: 1; display: flex; flex-direction: column; gap: 20px; }
 .pub-subtitle { font-weight: 600; }
 .pub-section-head { font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
+.pub-subhead { font-size: 20px; font-weight: 600; line-height: 1.2; margin: 12px 0 0; }
+.pub-numbered { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 16px; counter-reset: pub-num; }
+.pub-numbered li { position: relative; padding-left: 40px; font-size: 15px; line-height: 1.7; counter-increment: pub-num; }
+.pub-numbered li::before { content: counter(pub-num) "."; position: absolute; left: 0; top: 0; font-weight: 600; }
 .btn-learn-more { display: inline-block; background: #1a1a1a; color: white; text-decoration: none; padding: 12px 24px; border-radius: 999px; font-size: 14px; font-weight: 500; margin-top: 8px; }
 .btn-learn-more:hover { background: #333; }
 
